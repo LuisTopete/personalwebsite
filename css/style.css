@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(96, 119, 94);
+}
+
+/*maybe we should moddle like a post card and then make an animation for flopping,
+ when you click on the option it flips to that option*/
+
+.theMat{
+    background-color: rgb(245, 238, 229);
+    margin: 20%, 20%;
+    padding: 10%;
+    width: auto;
+    height: auto;
+}
+
+.navBar{
+display: grid;
+background-color: rgba(150, 199, 72, 0.61);
+width: 25%;
+}
+
+.navBar div{
+background-color: rgb(145, 170, 214);
+width: auto;
+height: auto ;
+margin-top: 10px;
+margin-bottom: 10px;
+color:rgb(245, 238, 229) ;
+outline-color: black;
+outline-style: dashed;
+}
