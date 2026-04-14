@@ -14,18 +14,25 @@ body{
 }
 
 .navBar{
-display: grid;
+display: inline;
 background-color: rgba(150, 199, 72, 0.61);
 width: 25%;
+justify-items: center;
+align-items: center;
+justify-content: center;
+justify-content: center;
+text-align: center;
+text-justify: center;
 }
 
-.navBar div{
+.navBar button{
 background-color: rgb(145, 170, 214);
 width: auto;
 height: auto ;
-margin-top: 10px;
-margin-bottom: 10px;
-color:rgb(245, 238, 229) ;
+color:rgb(241, 234, 219) ;
 outline-color: black;
-outline-style: dashed;
+outline-style: solid;
+outline-color: bisque;
+border-radius: 12px;
+
 }
